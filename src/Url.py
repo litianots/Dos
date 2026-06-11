@@ -17,7 +17,7 @@ def cls():
 cls()
 os.system("python src/logo.py")
 
-target = input(f"{GREEN}Enter Target URL: ")
+target = input(f"{GREEN}Enter Target URL(not https://): ")
 target.replace("http://", "")
 target.replace("https://","")
 target.replace("www.","")
