@@ -22,12 +22,11 @@ o="\033[1;33m"
 bl="\033[1;36;40m"
 
 print("""
-██████╗  █████╗      ██╗ █████╗ ██████╗ 
-██╔══██╗██╔══██╗     ██║██╔══██╗██╔══██╗
-██████╔╝███████║     ██║███████║██████╔╝
-██╔═══╝ ██╔══██║██   ██║██╔══██║██╔══██╗
-██║     ██║  ██║╚█████╔╝██║  ██║██║  ██║
-╚═╝     ╚═╝  ╚═╝ ╚════╝ ╚═╝  ╚═╝╚═╝  ╚═╝
+PPPPPP    AAA      JJJJJ    AAA    RRRRR
+PP   PP  AA AA       JJ    AA AA   RR  RR
+PPPPPP  AAAAAAA      JJ   AAAAAAA  RRRRR
+PP      AA   AA  JJ  JJ   AA   AA  RR RR
+PP      AA   AA   JJJJ    AA   AA  RR  RR
 """)
 
 print("1. DDos Ip Address")
