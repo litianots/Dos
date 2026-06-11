@@ -17,10 +17,9 @@ def cls():
 cls()
 os.system("python src/logo.py")
 
-target = input(f"{GREEN}Enter Target URL: ")
-target.replace("http://", "")
-target.replace("https://","")
-target.replace("www.","")
+target = target.replace("http://", "")
+target = target.replace("https://", "")
+target = target.replace("www.", "")
 
 ip = socket.gethostbyname(target)
 
