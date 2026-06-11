@@ -22,7 +22,7 @@ o="\033[1;33m"
 bl="\033[1;36;40m"
 
 print("1. DDos Ip Address")
-print("2. Wiev Url Ip Address")
+print("2. View Url Ip Address")
 print("3. DDos site logs")
 op=int(raw_input("Options: "))
 if(op==1):
@@ -35,5 +35,5 @@ else:
  print("\033[1;31;40mInvalid input. Reloading Tools!") 
  time.sleep(1.6)
  os.system("cd")
- os.system("cd Ultra-DDos")
+ os.system("cd Dos")
  os.system("python2 main.py")
